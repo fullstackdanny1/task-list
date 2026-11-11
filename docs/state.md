@@ -7,15 +7,16 @@ Update it at the end of a work session. Delete what is finished.
 
 ## In progress
 
-- TODO: what is being worked on right now, one line each.
+- Login page (spec to be written in docs/specs/login.md). No code yet.
 
 ## Open questions
 
-- TODO: questions that block or shape the work, with who can answer them.
+- Which login fields, UI language and test accounts? The human decides and adds them by hand.
+- Roles, branch and commit rules, release: the human fills them in by hand.
 
 ## Rejected proposals
 
 Things the agent proposed and you refused. Writing them here stops the same
 proposal from coming back in the next session.
 
-- TODO: YYYY-MM-DD: the proposal, and why it was refused.
+- None yet.

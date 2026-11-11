@@ -8,22 +8,27 @@ give both versions.
 
 ## Requirements
 
-TODO: what must be installed, with versions (for example Docker Desktop, Git).
+Docker with Compose and Git. Node 24 and Yarn 4 (via corepack) come from the
+image in .docker/; do not install them on the host.
 
 ## Start
 
 ```
-TODO: the commands that start the project
+docker compose run --rm --service-ports app sh
 ```
 
-TODO: the address where it opens (for example http://localhost:5173).
+Inside the container, run the dev server once package.json has scripts
+(Vite is not set up yet; the human does it). It will open at
+http://localhost:5173, the port compose.yaml publishes.
 
 ## Stop
 
+Press Ctrl+C, then `exit`. If a container is left over:
+
 ```
-TODO: the commands that stop it
+docker compose down
 ```
 
 ## Common problems
 
-TODO: problems that actually happened, each with its fix.
+None recorded yet.

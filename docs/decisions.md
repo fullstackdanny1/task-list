@@ -15,4 +15,7 @@ Rejected: the alternatives considered and why they lost.
 
 ## Entries
 
-TODO: add the first decision here.
+## 2026-11-11: Front end only, login simulated
+Decision: Vue + Vite + Tailwind, in Docker, with no API; login is simulated in the front end.
+Why: today's goal is the login page; a server would add work that is not needed yet.
+Rejected: building an API now.

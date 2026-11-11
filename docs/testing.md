@@ -24,4 +24,6 @@ place at the end of bin/check, so one command still answers "is it green?".
 
 ## Project tests
 
-TODO: how to run all tests, and how to run a single one.
+No test runner is set up yet. When it is, write here the commands to run all
+tests and a single one, and add them to bin/check. Run them inside the
+container (docs/dev-environment.md).

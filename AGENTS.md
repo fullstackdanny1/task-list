@@ -1,13 +1,15 @@
-# TODO: project name
+# Task List
 
-TODO: one or two sentences. What the project is and who uses it.
+To-do web app with accounts, tasks and administration. Front end only for now
+(Vue + Vite + Tailwind); there is no API. Today's scope is the login page.
 
 ## Non-standard
-- TODO: only what an agent could not guess, for example "everything runs in
-  Docker" or "Yarn 4 with node_modules". Delete this section if there is nothing.
+- Everything runs in Docker (compose.yaml, node 24); Yarn 4 with node_modules.
+- No API: login is simulated in the front end.
+- Never set up Vite, Vue or Tailwind unasked; the human does it.
 
 ## Structure
-TODO: folders, not files. Example: app/ front end · api/ server · database/ SQL
+src/ front end · docs/ project memory · bin/ checks · .docker/ image
 
 ## Where to look
 - docs/state.md: first, in every session

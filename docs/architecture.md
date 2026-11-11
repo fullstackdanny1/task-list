@@ -5,15 +5,17 @@ parts talk to each other. Describe the shape, not every file.
 
 ## Parts
 
-TODO: one line per part: what it is responsible for.
+- Front end: Vue + Vite + Tailwind, in src/. The only part.
+- No API and no database. Accounts, tasks and administration are planned.
 
 ## How they connect
 
-TODO: who calls whom, and through what (HTTP, a function call, a queue, a file).
+Everything runs in the browser. Login is simulated in the front end, with
+no HTTP calls.
 
 ## Data
 
-TODO: where data lives and who is allowed to change it.
+No persistent data yet. How simulated users are stored is decided by the human.
 
 ## What does not belong here
 

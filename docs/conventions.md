@@ -9,7 +9,8 @@ Code, comments, commit messages and the files in docs/ are written in English.
 
 ## Code style
 
-TODO: the formatter and linter used, and the few rules they do not cover.
+Follow .editorconfig. Styling uses Tailwind utility classes. No formatter or
+linter is set up yet.
 
 ## Branches
 
